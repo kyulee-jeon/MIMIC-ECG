@@ -105,20 +105,6 @@ An existing silver of the same format can be reused instead of re-reading DICOM:
 * `measurement_date` is each instance's own StudyDate.
 * `image_occurrence.local_path` = the **series folder**: `DICOM_DIR` + `/p<NN>/p<subject>/s<study>` (image_occurrence is series-level).
 
-## Validation
-
-Sample run <!-- CHECK: date and commit of the run -->, silver built with `extract/build_silver.py` from the DICOM files:
-
-| | count |
-|---|---|
-| DICOM files = `image_occurrence` rows | 1,989 |
-| `measurement` + `image_feature` rows | 135,252 (68 per ECG: 8 + 5 × 12 leads) |
-| `image_occurrence` linked to a visit | 1,569 (78.9 %): 1,154 stay, 415 clinic |
-
-**The full extraction (800,035 files, about 2 hours with 8 workers) has not been run.** For the full set, the visit link was computed from the ECG `ecg_time` values and the CDM visits, not by running the ETL: of 796,617 ECGs with a person, 624,950 (78.5 %) get a visit (463,110 stay, 161,840 clinic) and 171,667 none. The rule and its comparison with a date-only rule (635,465 linked, 79.8 %) are in [docs/visit_link.md](docs/visit_link.md). <!-- CHECK: choose one rule as the public reference -->
-
-`qa/validate.py` runs structural checks (one `image_feature` per `measurement`, ids unique, one occurrence per file, no orphan rows, person / date / concept agreement between the tables). `qa/compare_published.py` compares the content of two builds of the same tables (ids are positional and excluded); it is a development aid. Re-check the visit figures after a full run.
-
 ## Known limitations
 
 * **Visit link**: no tolerance before the visit start (an ED registration may be stamped after the image); 171,667 ECGs get no visit. See [docs/visit_link.md](docs/visit_link.md).
