@@ -1,0 +1,2 @@
+modality_group,dicom_modality_values,io_id_base,feature_id_base,measurement_id_base,anatomic_site_concept_id,feature_inherits_anatomic_site,feature_has_instance_uid,measurement_source_concept_id,procedure_link_source_value,measurement_type_concept_id,note
+ECG,ECG,100000000,110000000,200000000,4217142,N,N,,,32817,1 .dcm = 1 study = 1 series = 1 image_occurrence; anatomic site Heart structure on image_occurrence only; local_path = series folder = DICOM source folder (DICOM_DIR) + p<NN>/p<subject>/s<study>

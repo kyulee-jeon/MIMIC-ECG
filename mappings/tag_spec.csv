@@ -1,0 +1,14 @@
+modality_group,block,k_scope,row_seq,tag,keyword,vr,target_table,value_field,attribute_concept_id,value_map,const_source_value,const_concept_id
+ECG,pre,instance,0,00200011,SeriesNumber,IS,measurement,value_as_number,2128001686,,,
+ECG,pre,instance,1,00200013,InstanceNumber,IS,measurement,value_as_number,2128001688,,,
+ECG,pre,instance,2,54001004,WaveformBitsAllocated,US,measurement,value_as_number,2128005128,,,
+ECG,pre,instance,3,003A0005,NumberOfWaveformChannels,US,measurement,value_as_number,2128002404,,,
+ECG,pre,instance,4,003A0010,NumberOfWaveformSamples,UL,measurement,value_as_number,2128002405,,,
+ECG,channel,channel_repl,0,003A001A,SamplingFrequency,DS,measurement,value_as_number,2128002406,,,
+ECG,channel,channel,1,003A0203,ChannelLabel,SH,measurement,value_as_concept_id,2128002410,ecg_channel_label,,
+ECG,channel,channel,2,003A0210,ChannelSensitivity,DS,measurement,value_as_number,2128002416,,,
+ECG,channel,channel_const,3,003A0211,ChannelSensitivityUnitsSequence,SQ,measurement,value_as_concept_id,2128002417,,millivolt,720843
+ECG,channel,channel,4,003A0213,ChannelBaseline,DS,measurement,value_as_number,2128002419,,,
+ECG,post,instance,65,003A021A,WaveformBitsStored,US,measurement,value_as_number,2128002423,,,
+ECG,post,instance,66,003A0220,FilterLowFrequency,DS,measurement,value_as_number,2128002424,,,
+ECG,post,instance,67,003A0221,FilterHighFrequency,DS,measurement,value_as_number,2128002425,,,

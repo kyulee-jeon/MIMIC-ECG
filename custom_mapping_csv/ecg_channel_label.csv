@@ -1,0 +1,13 @@
+concept_name,source_concept_id,source_vocabulary_id,source_domain_id,source_concept_class_id,standard_concept,concept_code,valid_start_date,valid_end_date,invalid_reason,target_concept_id,target_concept_name,relationship_id,reverse_relationship_id,relationship_valid_start_date,relationship_end_date,invalid_reason_cr
+I,2129000019,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,I,1970-01-01,2099-12-31,,4157985,Lead I,Maps to,Mapped from,1970-01-01,2099-12-31,
+II,2129000020,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,II,1970-01-01,2099-12-31,,4165927,Lead II,Maps to,Mapped from,1970-01-01,2099-12-31,
+III,2129000021,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,III,1970-01-01,2099-12-31,,4157986,Lead III,Maps to,Mapped from,1970-01-01,2099-12-31,
+aVR,2129000022,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,aVR,1970-01-01,2099-12-31,,4121562,aVR,Maps to,Mapped from,1970-01-01,2099-12-31,
+aVF,2129000023,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,aVF,1970-01-01,2099-12-31,,4107143,aVF,Maps to,Mapped from,1970-01-01,2099-12-31,
+aVL,2129000024,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,aVL,1970-01-01,2099-12-31,,4107144,aVL,Maps to,Mapped from,1970-01-01,2099-12-31,
+V1,2129000025,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,V1,1970-01-01,2099-12-31,,4121563,Lead site V1,Maps to,Mapped from,1970-01-01,2099-12-31,
+V2,2129000026,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,V2,1970-01-01,2099-12-31,,4105372,Lead site V2,Maps to,Mapped from,1970-01-01,2099-12-31,
+V3,2129000027,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,V3,1970-01-01,2099-12-31,,4107145,Lead site V3,Maps to,Mapped from,1970-01-01,2099-12-31,
+V4,2129000028,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,V4,1970-01-01,2099-12-31,,4121564,Lead site V4,Maps to,Mapped from,1970-01-01,2099-12-31,
+V5,2129000029,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,V5,1970-01-01,2099-12-31,,4107146,Lead site V5,Maps to,Mapped from,1970-01-01,2099-12-31,
+V6,2129000030,dicom_ecg_channel_label,Spec Anatomic Site,DICOM Lead Label,,V6,1970-01-01,2099-12-31,,4119701,Lead site V6,Maps to,Mapped from,1970-01-01,2099-12-31,
